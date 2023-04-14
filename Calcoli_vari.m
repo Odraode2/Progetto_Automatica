@@ -4,8 +4,8 @@
 figure
 plot(square(1,:),square(4,:))
 hold on 
-plot(firstTau,0.99*maxva,'ro','MarkerSize',1)
-
+plot(firstTau,0.99*maxva,'ro','MarkerSize',3)
+primaryTau = firstTau/5
 
 function [x,y] = findthefirst(data, value)
     t = -1;
